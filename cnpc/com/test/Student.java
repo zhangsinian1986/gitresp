@@ -37,4 +37,13 @@ public class Student {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", description='" + description + '\'' +
+                '}';
+    }
 }
